@@ -195,6 +195,7 @@ x_float = x_fixed / 256
 - Stream element counts must match exactly between stages.
 - Incorrect AXI address configuration may cause the accelerator to stall.
 - Softmax is optional and typically performed in software.
+- IMPORTANT : Both the .hwh and .bit file must be given the same name and uploaded onto the board.
 
 ---
 
